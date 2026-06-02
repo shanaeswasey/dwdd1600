@@ -1,0 +1,167 @@
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    background-color: #E1EEF4;
+    color: #0B0D0F;
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* header stuff here */
+header {
+    background-color: #0B0D0F;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #E1EEF4;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+header p {
+    margin: 0;
+    color: #8CA0A7;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #4C585A;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 1rem 1.2rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #E1EEF4;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #8C0C03;
+    color: #E1EEF4;
+}
+
+nav li a:hover {
+    background-color: #8C0C03;
+    color: #E1EEF4;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #8C0C03;
+    font-size: 2rem;
+}
+
+main h2 {
+    color: #0B0D0F;
+    margin-bottom: .2rem;
+    font-size: 1.5rem;
+    padding-left: .5rem;
+    display: inline-block;
+    border-left: 5px solid #8C0C03;
+}
+
+#terms {
+    color: #8C0C03;
+    padding-bottom: .3rem;
+    border-bottom: 4px solid #8C0C03;
+    display: inline-block;
+}
+
+main p {
+    margin: 0 0 1rem 0;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #d7e5ec;
+    border-radius: 10px;
+}
+
+main ol li {
+    margin-bottom: 2rem;
+}
+
+main dl dt {
+    color: #8C0C03;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #0B0D0F;
+    margin-left: 20px;
+}
+
+main dl {
+    background-color: #d7e5ec;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* list styling here */
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+}
+
+main strong {
+    font-weight: 400;
+    color: #0B0D0F;
+}
+
+main em {
+    color: #4C585A;
+    font-style: italic;
+}
+
+main address {
+    font-style: normal;
+    background-color: #d7e5ec;
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 5px solid #8C0C03;
+    width: fit-content;
+}
+
+main a {
+    color: #8C0C03;
+    font-weight: 700;
+}
+
+main a:hover {
+    color: #4C585A;
+}
+
+/* footer stuff here */
+footer {
+    background-color: #0B0D0F;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem;
+    color: white;
+    letter-spacing: 2px;
+}
