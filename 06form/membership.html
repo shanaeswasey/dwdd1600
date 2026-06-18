@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shanae Swasey">
+    <meta name="description" content="A beginner's guide to new motorcycle riders">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="rookierider.css">
+    <title>The Rookie Rider: Membership Application</title>
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+        <span>The Rookie Rider</span>
+        <p>Built for future riders</p>
+    </header>
+
+
+    <nav>
+        <!--start the page navigation-->
+        <ul>
+            <li><a href="index.html">Types of Motorcycles</a></li>
+            <li><a href="beginnerbikes.html">Beginner Bikes</a></li>
+            <li><a href="safetygear.html">Safety Gear</a></li>
+            <li class="active"><a href="membership.html">Membership</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1>The Rookie Rider Membership Application</h1>
+
+        <p>Complete the form below to apply for a membership in The Rookie Rider community.</p>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Member Information</legend>
+
+                <label>First Name*
+                    <input type="text" name="fname" required>
+                </label>
+
+                <label>Last Name*
+                    <input type="text" name="lname" required>
+                </label>
+
+                <label>Email Address*
+                    <input type="email" name="email" required>
+                </label>
+
+                <label>Phone Number*
+                    <input type="tel" name="phone" required placeholder="801-123-4567">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Rider Experience</legend>
+
+                <label>
+                    <input type="radio" name="experience" value="beginner">
+                    Less than 1 year
+                </label>
+
+                <label>
+                    <input type="radio" name="experience" value="intermediate">
+                    1-3 years
+                </label>
+
+                <label>
+                    <input type="radio" name="experience" value="experienced">
+                    4-7 years
+                </label>
+
+                <label>
+                    <input type="radio" name="experience" value="advanced">
+                    8+ years
+                </label>
+
+                <label>What type of motorcycle do you ride?
+                    <select name="bikeType">
+                        <option value="none">Please Select</option>
+                        <option value="sport">Sport</option>
+                        <option value="cruiser">Cruiser</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="naked">Naked</option>
+                        <option value="touring">Touring</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Club Activities</legend>
+
+                <label><input type="checkbox" name="activities" value="grouprides"> Group Rides</label>
+
+                <label><input type="checkbox" name="activities" value="bikenights"> Bike Nights</label>
+
+                <label><input type="checkbox" name="activities" value="workshops"> Safety Workshops</label>
+
+                <label><input type="checkbox" name="activities" value="charity"> Charity Events</label>
+
+                <label><input type="checkbox" name="activities" value="trackdays"> Track Days</label>
+
+            </fieldset>
+
+            <label>Tell us about yourself
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Apply for Membership">
+
+        </form>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 &bull; Shanae Swasey &bull; Web Essentials</p>
+    </footer>
+
+
+</body>
+
+</html>
